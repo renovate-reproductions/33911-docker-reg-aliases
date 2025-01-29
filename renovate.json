@@ -3,5 +3,14 @@
   "extends": [
     "config:recommended",
     ":dependencyDashboard"
+  ],
+  "registyAliases": {
+    "bitnami": "public.ecr.aws/bitnami"
+  },
+  "packageRules": [
+    {
+      "matchPackagesNames": ["public.ecr.aws/bitnami/kubctl"],
+      "groupName": "kubctl"
+    }
   ]
 }
