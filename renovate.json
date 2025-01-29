@@ -4,7 +4,7 @@
     "config:recommended",
     ":dependencyDashboard"
   ],
-  "registyAliases": {
+  "registryAliases": {
     "bitnami": "public.ecr.aws/bitnami"
   },
   "packageRules": [
