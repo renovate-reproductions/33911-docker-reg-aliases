@@ -9,7 +9,7 @@
   },
   "packageRules": [
     {
-      "matchPackagesNames": ["public.ecr.aws/bitnami/kubctl"],
+      "matchPackageNames": ["public.ecr.aws/bitnami/kubctl"],
       "groupName": "kubctl"
     }
   ]
